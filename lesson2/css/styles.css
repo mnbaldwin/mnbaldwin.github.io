@@ -1,0 +1,28 @@
+section{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 15px;  
+  box-shadow: 2px 2px 1px grey;
+  border: 1px outset #2D7180;
+  margin: 0 auto;
+  width: 96.5%;
+  margin-top: 20px;
+  background-color: #EFEFEF;
+}
+
+img {
+    max-width: 100%;
+  }
+
+.wordscol,
+.imagecol {  
+  width: 45%;
+  padding: 6px;
+  /* flex: 1 0 15em; */
+  height: auto; 
+}
+.wordscol{
+    margin-bottom: auto;
+flex:1;
+}

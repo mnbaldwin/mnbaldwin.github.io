@@ -1,0 +1,92 @@
+body {
+  font-family: Philosopher, Verdana, Helvetica, Arial;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: -15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#content {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 10px;
+}
+a{
+  color:black;
+}
+footer {
+  margin: 5px auto;
+  max-width: 940px;
+  padding: 5px;
+  background-color: black;
+  color: #99F6FF;
+  text-align: center;
+  border-radius: 15px;
+}
+.assignments{
+  background-color: #EFEFEF;
+}
+.lastupdated {
+  color: white;
+  font-size: small;
+}
+
+footer a {
+  color: #99F6FF;
+}
+
+header {
+  margin: 5px auto;
+  max-width: 940px;
+  background-color: black;
+  color: #99F6FF;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+/* header div {
+  background-color: black;
+  color: #99F6FF;
+  padding: 4px;
+  border-radius: 15px;
+} */
+
+header div h1 {
+  margin-left: 50px;
+}
+
+.selfImage {
+  height: 150px;  
+  margin-top: 10px;
+  margin-right: 10px;  
+  box-shadow: 5px 5px 5px grey;
+  line-height: 0px;
+  background-color: #EFEFEF;
+  border-top-right-radius: 15px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+ul {
+  counter-reset: li-count;
+}
+
+li {
+  counter-increment: li-count;
+  padding-bottom: 5px;
+}
+
+/* h1, h2{
+  font-family: 'Philosopher', cursive;
+} */

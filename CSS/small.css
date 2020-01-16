@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Helvetica, Arial;
+  font-family: Philosopher, Verdana, Helvetica, Arial;
 }
 
 hr {
@@ -45,14 +45,18 @@ footer a {
 header {
   margin: 5px auto;
   max-width: 940px;
-}
-
-header div {
   background-color: black;
   color: #99F6FF;
   padding: 4px;
   border-radius: 15px;
 }
+
+/* header div {
+  background-color: black;
+  color: #99F6FF;
+  padding: 4px;
+  border-radius: 15px;
+} */
 
 header div h1 {
   margin-left: 50px;
@@ -61,9 +65,8 @@ header div h1 {
 .selfImage {
   height: 150px;  
   margin-top: 10px;
-  margin-right: 10px;
-  float: right;
-  box-shadow: 8px 8px 8px grey;
+  margin-right: 10px;  
+  box-shadow: 5px 5px 5px grey;
   line-height: 0px;
   background-color: #EFEFEF;
   border-top-right-radius: 15px;
@@ -80,4 +83,8 @@ ul {
 li {
   counter-increment: li-count;
   padding-bottom: 5px;
+}
+
+h1, h2{
+  font-family: 'Righteous', cursive;
 }
