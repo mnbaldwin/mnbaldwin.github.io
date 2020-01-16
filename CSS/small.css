@@ -1,5 +1,5 @@
 body {
-  font-family: Philosopher, Verdana, Helvetica, Arial;
+  font-family: 'Philosopher', Verdana, Helvetica, Arial;
 }
 
 hr {
@@ -86,5 +86,5 @@ li {
 }
 
 h1, h2{
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', Verdana, Helvetica, Arial;
 }

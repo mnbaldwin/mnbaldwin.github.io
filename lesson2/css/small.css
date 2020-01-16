@@ -1,5 +1,5 @@
 body {
-  font-family: Philosopher, Verdana, Helvetica, Arial;
+  font-family: 'Philosopher', Verdana, Helvetica, Arial;
   max-width: 940px;
   margin: 0 auto;
 }
@@ -87,6 +87,6 @@ li {
   padding-bottom: 5px;
 }
 
-/* h1, h2{
-  font-family: 'Philosopher', cursive;
-} */
+h1, h2{
+  font-family: 'Righteous', Verdana, Helvetica, Arial;
+}
