@@ -1,6 +1,6 @@
 body {
   font-family: 'Hind Vadodara', Verdana, Helvetica, Arial;
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ a{
 }
 footer {
   margin: 5px auto;
-  max-width: 940px;
+  max-width: 960px;
   padding: 5px;
   background-color: #002642;
   color: #99F6FF;
@@ -49,7 +49,7 @@ footer a {
 
 header {
   margin: 5px auto;
-  max-width: 940px;
+  max-width: 960px;
   background-color: #002642;
   color: #99F6FF;
   padding: 4px;
