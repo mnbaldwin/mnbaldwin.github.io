@@ -1,18 +1,16 @@
 body {
-  font-family: 'Philosopher', Verdana, Helvetica, Arial;
+  font-family: 'Hind Vadodara', Verdana, Helvetica, Arial;
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 hr {
   margin-top: -15px;
+  border-top: 2px solid #DD2559;
 }
 
 img {
   max-width: 100%;
-}
-
-#content {
-  max-width: 940px;
-  margin: 0 auto;
 }
 
 main {
@@ -26,13 +24,18 @@ footer {
   margin: 5px auto;
   max-width: 940px;
   padding: 5px;
-  background-color: black;
+  background-color: #002642;
   color: #99F6FF;
   text-align: center;
   border-radius: 15px;
 }
 .assignments{
-  background-color: #EFEFEF;
+  /* background-color: #EFEFEF; */
+  /* padding: 5px; */
+    box-shadow: 2px 2px 1px grey;
+    border: 1px outset #002642;
+  /* background-image: linear-gradient(rgba(218,218,218,1),rgba(218,218,218,0));         */
+  background-image: linear-gradient(#EFEFEF, #EFEFEF, white);
 }
 .lastupdated {
   color: white;
@@ -41,12 +44,13 @@ footer {
 
 footer a {
   color: #99F6FF;
+  font-weight: normal;
 }
 
 header {
   margin: 5px auto;
   max-width: 940px;
-  background-color: black;
+  background-color: #002642;
   color: #99F6FF;
   padding: 4px;
   border-radius: 15px;
@@ -67,14 +71,10 @@ header div h1 {
   height: 150px;  
   margin-top: 10px;
   margin-right: 10px;  
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px black;
   line-height: 0px;
-  background-color: #EFEFEF;
+  background-color: #002642;
   border-top-right-radius: 15px;
-}
-
-.fullwidth {
-  width: 100%;
 }
 
 ul {
