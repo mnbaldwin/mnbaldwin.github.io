@@ -2,6 +2,7 @@ body {
   font-family: 'Hind Vadodara', Verdana, Helvetica, Arial;
   max-width: 960px;
   margin: 0 auto;
+  padding:4px;
 }
 
 hr {
@@ -64,7 +65,8 @@ header {
 } */
 
 header div h1 {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  text-align: center;
 }
 
 .selfImage {
