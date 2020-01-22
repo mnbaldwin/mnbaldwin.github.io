@@ -87,20 +87,6 @@ main {
     grid-template-columns: 1fr;
 }
 
-
-@media only screen and (min-width: 37.5em) {
-
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (min-width: 60em) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
 section {
     background-image: linear-gradient(#EFEFEF, white);
     box-shadow: 2px 2px 1px grey;
