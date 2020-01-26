@@ -1,0 +1,111 @@
+
+.defaultparagraph{
+    
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color:#000000;       
+}
+
+.h1example{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.h2example{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.h3example{
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+}
+/* <il>Font: Roboto</il>
+        <il>Weight: Normal</il>
+        <il>Style: Normal</il>
+        <il>Size: 16px</il>
+        <li>Color: #dce0d9</li>
+        <li>Background Color:#45364b</li> */
+.navexample{
+background-color: #45364b;
+font-family: Roboto;
+font-weight: bold;
+font-style: normal;
+font-size: 16px;
+color:#dce0d9; 
+padding: 8px;
+text-decoration: none;
+}
+
+
+
+.navHoverExample{
+    background-color: #dce0d9;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color:#45364b; 
+    padding: 8px;
+    text-decoration: none;
+}
+
+.navActiveExample{
+    background-color: #685762;
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color:#dce0d9; 
+    padding: 8px;
+    text-decoration: none;
+}
+
+.examplenav {
+	background-color: #45364b;
+    text-align: center;
+    
+    font-family: Roboto;
+font-weight: normal;
+font-style: normal;
+font-size: 16px;
+	/* box-shadow: 0 2px 15px gray; */
+}
+.examplenav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.examplenav li a {
+    color:#dce0d9; 
+	display: block;
+	/* color: #99F6FF;
+    text-align: center;    
+	padding: 0.75rem; */
+	text-decoration: none;
+    /* font-size: 0.95rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #99F6FF;
+    margin-bottom: -5px; */
+}
+.examplenav a:hover {   
+    /* background-image: linear-gradient( #002642,#0b2e47, #204966, #60829b);
+    background-image: lin; */
+    color: #002642;
+    background-color: #99F6FF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #002642;
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+.examplenavactive {
+	color: #EFEFEF;
+}
