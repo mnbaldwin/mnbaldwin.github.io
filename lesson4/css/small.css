@@ -1,0 +1,10 @@
+
+
+.navigation li {
+    display: none;    
+}
+
+.navigation li:first-child {
+    display: block;
+    flex: 1 1 100%;
+}

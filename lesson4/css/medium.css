@@ -1,0 +1,16 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 32.5em) {
+
+    .navigation li {
+        display: none;    
+    }
+    
+    .navigation li:first-child {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /* .responsive li{
+        display: block;
+    } */
+}
