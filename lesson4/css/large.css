@@ -1,8 +1,7 @@
-
 /*large*/
 @media only screen and (min-width: 60em) {
     .navigation a {
-        font-size: 1.1rem;               
+        font-size: 1.1rem;
     }
 
     main {
@@ -13,17 +12,16 @@
         grid-column: span 1;
     }
 
-    .navigation{
-        display: flex;                
+    .navigation {
+        display: flex;
     }
 
-    .navigation li{
+    .navigation li {
         display: block;
-        flex: 1 1 100%;                
+        flex: 1 1 100%;
     }
-    
+
     .navigation li:first-child {
         display: none;
     }
-
 }
