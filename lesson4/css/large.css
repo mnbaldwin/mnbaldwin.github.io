@@ -24,4 +24,7 @@
     .navigation li:first-child {
         display: none;
     }
+    .logotext {        
+        font-size: 3.5em;    
+    }
 }

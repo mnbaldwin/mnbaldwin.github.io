@@ -8,3 +8,7 @@
     display: block;
     flex: 1 1 100%;
 }
+
+.logotext {        
+    font-size: 2.5em;    
+}
