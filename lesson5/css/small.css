@@ -194,8 +194,7 @@ a.active {
 .herodiv{
     margin: 10px auto;
     position: relative;   
-    max-height: inherit;
-    max-width: min-contentx;
+    max-height: inherit;    
     justify-content: center;
 }
 .herodiv h2{margin: 5px;    
