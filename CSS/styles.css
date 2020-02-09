@@ -78,3 +78,18 @@ li {
 h1, h2{
   font-family: 'Righteous', Verdana, Helvetica, Arial;
 }
+
+/* .test{
+  width: 48px;
+  height: 48px;
+  
+  color: #99F6FF;
+  border: 2px solid #DD2559;
+  text-align: center;
+  
+  font-family: 'Righteous';
+  font-size: 39px;
+  
+  background-image: linear-gradient(#002642 60% , #EFEFEF );
+  font-family: 'Righteous', cursive;
+} */
