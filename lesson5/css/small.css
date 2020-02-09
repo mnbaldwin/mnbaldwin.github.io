@@ -272,8 +272,7 @@ a.active {
     box-shadow: 2px 2px 1px grey;
 }
 
-.article img{
-    min-width: 300px;
+.article img{    
     box-shadow: 2px 2px 1px black;
 }
 
