@@ -27,7 +27,8 @@ footer {
     margin: 5px auto;
     max-width: 960px;
     padding: 5px;    
-    background-image: linear-gradient(to right,#685762, #586768, #EFF0ED, #7EB4D3);    
+    /* background-image: linear-gradient(to right,#685762, #586768, #EFF0ED, #7EB4D3);     */
+    background-image: linear-gradient(to right, #586768, #EFF0ED, #7EB4D3);   
     color: #000000;    
     text-align: center;
     border-bottom-left-radius: 15px;
@@ -48,7 +49,8 @@ footer a {
 header {
     margin: 5px auto;
     max-width: 960px;   
-    background-image: linear-gradient(to right, #586768,#685762, #EFF0ED, #7EB4D3);
+    /* background-image: linear-gradient(to right, #586768,#685762, #EFF0ED, #7EB4D3); */
+    background-image: linear-gradient(to right, #586768, #EFF0ED, #7EB4D3);
     padding: 4px;    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -283,7 +285,7 @@ a.active {
 #contactinfo{
     display: grid;    
     grid-template-columns: 1fr;   
-    background-color: #685762;
+    background-color: #586768;
     color: #EFF0ED ;
     box-shadow: 2px 2px 1px grey;
 }
