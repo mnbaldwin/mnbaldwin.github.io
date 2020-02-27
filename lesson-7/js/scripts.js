@@ -10,7 +10,7 @@ function toggleMenu() {
 function main() {
   lastUpdated();
   toggleBanner();
-  diplayWindChill();
+  //diplayWindChill();
 }
 
 function toggleBanner() {
