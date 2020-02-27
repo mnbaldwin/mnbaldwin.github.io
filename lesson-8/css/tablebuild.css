@@ -25,7 +25,7 @@ thead tr:first-child th{
   font-size: 32px;
 }
 
-thead tr:nth-child(2) th{
+thead td{
   background-color: #628ca6;
   color: white;
   font-size:20px;
