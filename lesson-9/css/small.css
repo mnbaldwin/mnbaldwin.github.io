@@ -343,7 +343,8 @@ form fieldset {
     border-radius: 10px;
     padding: .5rem 2%;
     padding-bottom: 2rem;
-    background-color: #EFF0ED;
+    /* background-color: #EFF0ED; */
+    background-image: linear-gradient(to right, #EFF0ED, white);
     box-shadow: 2px 2px 1px grey;
     border: none;
     font-weight: bold;
@@ -435,3 +436,50 @@ input:focus {
     margin-bottom: 33%;
 }
 
+.town_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    /* margin: 10px; */
+    /* background-color: brown; */
+    max-width: 100%;
+}
+
+.town {
+    /* background-color: #002642; */
+    /* background-color: #EFF0ED; */
+    background-image: linear-gradient(#EFF0ED, white);
+    box-shadow: 2px 2px 1px grey;
+    text-align: center;
+    /* margin: 5px;
+    padding: 5px; */
+    max-width: 100%;
+    margin-top: 20px;
+    /* opacity: 20%;     */
+}
+
+
+.town h2{
+    /* text-shadow: -1px 1px 2px #ffffff,
+        1px 1px 2px #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+    font-family: Merryweather;
+    color: #002642;
+    
+    font-kerning: normal;     */
+}
+.town_text .motto{
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -15px;    
+}
+
+.town_photo{
+    max-width: 95%;
+    padding: 5px;
+}
+.town img {
+    box-shadow: 2px 2px 1px black;
+    max-width: 95%;
+}
