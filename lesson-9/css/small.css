@@ -455,30 +455,27 @@ input:focus {
     padding: 5px; */
     max-width: 100%;
     margin-top: 20px;
-    /* opacity: 20%;     */
 }
 
-
-.town h2{
-    /* text-shadow: -1px 1px 2px #ffffff,
+.town h1 {
+    text-shadow: -1px 1px 2px #ffffff,
         1px 1px 2px #ffffff,
         1px -1px 0 #ffffff,
         -1px -1px 0 #ffffff;
-    font-family: Merryweather;
     color: #002642;
-    
-    font-kerning: normal;     */
-}
-.town_text .motto{
-    font-style: italic;
-    font-size: 13px;
-    margin-top: -15px;    
 }
 
-.town_photo{
+.town_text .motto {
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.town_photo {
     max-width: 95%;
     padding: 5px;
 }
+
 .town img {
     box-shadow: 2px 2px 1px black;
     max-width: 95%;

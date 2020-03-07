@@ -13,7 +13,7 @@ fetch(requestURL)
                 let card = document.createElement("section");
                 let divText = document.createElement("div");
                 let divPhoto = document.createElement("div");
-                let h2TownName = document.createElement("h2");
+                let h2TownName = document.createElement("h1");
                 let pMotto = document.createElement("p");
                 let pYearFounded = document.createElement("p");
                 let pPopulation = document.createElement("p");
