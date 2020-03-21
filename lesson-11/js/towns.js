@@ -30,7 +30,7 @@ fetch(requestURL)
                 pPopulation.textContent = "Population: " + towns[i].currentPopulation;
                 pAnnualRainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall + " inches";
 
-                imageTownPhoto.setAttribute('src', "/images/small_" + towns[i].photo);            
+                imageTownPhoto.setAttribute('src', "images/small_" + towns[i].photo);            
                 imageTownPhoto.setAttribute('alt', towns[i].name + ' Photo');
 
                 divText.appendChild(h2TownName);
