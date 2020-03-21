@@ -327,6 +327,7 @@ a.active {
     display: none;
 }
 
+
 #contactinfo {
     display: grid;
     grid-template-columns: 1fr;
