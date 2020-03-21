@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>truWeather Soda Springs Town Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Assignment CIT 230: Web Frontend Development at BYUI.">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
+
+<body>
+    <header>        
+        <div class="container">
+            <img class="logo" src="images/logo2white.png" alt="truWeather logo"><span
+                class="logotext centered">truWeather</span>
+        </div>
+        <div class="motto">For weather insights you can count on</div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="hamburger">&#9776;&nbsp;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda_springs.html" class="active">Soda&nbsp;Springs</a></li>
+            <li><a href="fish_haven.html">Fish&nbsp;Haven</a></li>
+            <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="textcentered">Soda Springs Idaho</h1>
+
+        <div class="herodiv">
+            <img src="images/hero_soda_springs.jpg" alt="Preston Idaho">
+            <div class="statsheader">
+                <h2>Weather Summary</h2>
+                <div class="stats">
+                    <span class="label">Currently:</span><span id="spnCondition"></span>
+                    <span class="label">High:</span><span id="spnHighTemp"></span>
+                    <span class="label">Wind Chill:</span><span id="spnWindChill"></span>
+                    <span class="label">Humidity:</span><span id="spnHumidity"></span>
+                    <span class="label">Wind Speed:</span><span id="spnWindSpeed"></span>
+                </div>
+            </div>
+            <div class="events"></div>
+        </div>
+
+        <h2 class="textcentered">Five Day Forecast</h2>
+        <section id="fivedayforecast">
+        </section>
+        <section class="article">
+            <div>
+                <h2>Is It Spring Time Yet?</h2>
+                <p class="smalltext">by Lamont Sanford</p>
+                <p>Well, is it? For the residence of Soda Springs that may sound like a trick question.
+                    Technically, yes the spring equinox, also known and the vernal equinox, actually occurred on March
+                    19th this year.
+                    This marks the time when the sun shines directly on the equator, giving a roughly equal amount of
+                    daylight and darkness at night, depending on where you live the planet you are.
+                    In fact, this was the earliest vernal equinox in 124 years.</p>
+                <p>That all sounds pretty good right? Well, for residence in our area it will continue to feel like
+                    winter for at least a few more weeks.
+                    We will have wet snow, flurries, mixed with a few sunny days, and temperatures will remain in the
+                    30's and possibly low 40's, at least into the first weeks of April.</p>
+                <p>So for now, spring may have to remain a hopeful state of mind. Don't worry, we'll be breaking out the
+                    shorts and sun screen soon enough.</p>
+            </div>
+            <div><img src="images/ice_article.jpeg" alt="icicles"></div>
+        </section>
+        <section id="contactinfo">
+            <div class="contactmap">
+                <iframe src="https://maps.google.com/maps?q=soda%20springs%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="contactdetails textcentered">
+                <h2>Contact Information</h2>
+                <p>truWeather</p>
+                <p>30 N 1st Street</p>
+                <p>Preston, ID, 83263</p>
+                <p>&phone; 999-999-9999</p>
+                <p>&#x1F584; info@truWeather.not.real</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="copyright">
+            <p>&copy; 2020 | Matthew N. Baldwin | Arizona | <a href="https://www.byui.edu/online">BYUI Online
+                    Learning</a><br>
+                <span id="spanLastUpdated" class="lastupdated"></span></p>
+        </div>
+    </footer>
+    <input type="hidden" name="cityId" id="cityId" value="5607916">
+    <input type="hidden" name="cityName" id="cityName" value="soda springs">
+    <script src="js/webfont_loader.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>

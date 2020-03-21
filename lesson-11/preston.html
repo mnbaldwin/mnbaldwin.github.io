@@ -31,8 +31,8 @@
             <li><a href="#" onclick="toggleMenu()" class="hamburger">&#9776;&nbsp;Menu</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="preston.html" class="active">Preston</a></li>
-            <li><a href="#">Soda&nbsp;Springs</a></li>
-            <li><a href="#">Fish&nbsp;Haven</a></li>
+            <li><a href="soda_springs.html">Soda&nbsp;Springs</a></li>
+            <li><a href="fish_haven.html">Fish&nbsp;Haven</a></li>
             <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
@@ -52,28 +52,42 @@
                     <span class="label">Wind Speed:</span><span id="spnWindSpeed"></span>
                 </div>
             </div>
-        </div>        
+            <div class="events"></div>
+        </div>
+        
+        
         <h2 class="textcentered">Five Day Forecast</h2>
         <section id="fivedayforecast">       
         </section>
+        
         <section class="article">
             <div>
-                <h2>Is It Spring Time Yet?</h2>
-                <p class="smalltext">by Fredrick G. Sanford</p>
-                <p>This is my article text. This may look like filler, but if you keep reading, you never know, you
-                    might find
-                    something very entertaining and informative, that is only if you like reading pointless text and
-                    learning about really long words like floccinaucinihilipilification. Is that word even real? Yes, it
-                    is.
-                    "What does it mean?", you may ask. It means to atrribute no value to something, or to say something
-                    is worthless. Did you find reading this fake article meaningful,
-                    or was it a worthless use of your time? If you beleive reading this was worthless, you just
-                    floccinaucinihilipilificated.</p>
+                <h2>Go Fly a Kite With Napolean Dynamite</h2>
+                <p class="smalltext">by Fred G. Sanford</p>
+                <p>Are you getting spring fever? Is it more like cabin fever? Are you going insane, self isolating, and eating canned green beans? Do you need a reason to shave? Are you tough enough to wear shorts in 45 degree weather? Well, we have just the answer for you. Go fly a kite!</p>
+                <p>When? Every weekend in March and April. Where? The field right accross the street from Napolean Dynamite's house. You know, the famous location where the heroic cow was hunted down by the neighbor, right in front of all the students in the school bus.</p>
+                <p>Will Napolean Dynamite be there? Absolutely not. Are you crazy? Don't worry, Kip and Uncle Rico look alikes will be there mingling and selling forged autographs.</p>
+                    <p>There will be loads of food and fun. On the menu:</p>
+                    <ul>
+                        <li>Buffet of Quesadillas (case-uh-dill-uhs)</li>
+                        <li>Mountain of Egg Salad Sandwiches</li>
+                        <li>Panfried Steaks (prime Holstein beef)</li>                        
+                    </ul>
+                    <p>To quench your thirst choose from these delicious, luke warm options:
+                        <ul>
+                            <li>Unpasturized, onion flavored milk</li>
+                            <li>Orange juice, fortfied with locally raised, raw chicken eggs</li>                
+                        </ul>
+                            (Refills are free)</p>                    
+                    <p>Come on down. We can't wait to see you there!</p>
             </div>
-            <div><img src="images/ice_article.jpeg" alt="icicles"></div>
+            <div><img src="images/fly_a_kite.jpeg" alt="icicles"></div>
         </section>
         <section id="contactinfo">
-            <div class="contactmap"><img src="images/map.jpg" alt="map of Preston Idaho"></div>
+        
+            <div class="contactmap">
+                <iframe src="https://maps.google.com/maps?q=preston%20%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>               
+            </div>
             <div class="contactdetails textcentered">
                 <h2>Contact Information</h2>
                 <p>truWeather</p>
@@ -92,10 +106,13 @@
                 <span id="spanLastUpdated" class="lastupdated"></span></p>
         </div>
     </footer>
+    <input type="hidden" name="cityId" id="cityId" value="5604473">
+    <input type="hidden" name="cityName" id="cityName" value="preston">
     <script src="js/webfont_loader.js"></script>    
     <script src="js/scripts.js"></script>
     <script src="js/weatherapi.js"></script>     
     <script src="js/preston.js"></script>
+    <script src="js/events.js"></script>
 </body>
 
 </html>

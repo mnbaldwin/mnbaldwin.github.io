@@ -1,8 +1,10 @@
-getCurrentStats();
-getFiveDayForecast();
+let cityId = document.getElementById("cityId").value;
+getCurrentStats(cityId);
+getFiveDayForecast(cityId);
 
 function getCurrentStats() {
-    let apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=50b0166ca1ae379ced37fa0954c76dc4';
+        
+    let apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=' + cityId + '&units=imperial&APPID=50b0166ca1ae379ced37fa0954c76dc4';
     fetch(apiURL)
         .then((response) => response.json())
         .then((jsObject) => {
@@ -23,7 +25,7 @@ function getCurrentStats() {
 }
 
 function getFiveDayForecast() {
-    let apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=50b0166ca1ae379ced37fa0954c76dc4';
+    let apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=' + cityId + '&units=imperial&APPID=50b0166ca1ae379ced37fa0954c76dc4';
     
     let weekday = [];
 

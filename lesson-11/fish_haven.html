@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>truWeather Fish Haven Town Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Assignment CIT 230: Web Frontend Development at BYUI.">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
+
+<body>
+    <header>        
+        <div class="container">
+            <img class="logo" src="images/logo2white.png" alt="truWeather logo"><span
+                class="logotext centered">truWeather</span>
+        </div>
+        <div class="motto">For weather insights you can count on</div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="hamburger">&#9776;&nbsp;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda_springs.html">Soda&nbsp;Springs</a></li>
+            <li><a href="fish_haven.html" class="active">Fish&nbsp;Haven</a></li>
+            <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="textcentered">Fish Haven Idaho</h1>
+
+        <div class="herodiv">
+            <img src="images/hero_fish_haven.jpg" alt="Preston Idaho">
+            <div class="statsheader">
+                <h2>Weather Summary</h2>
+                <div class="stats">
+                    <span class="label">Currently:</span><span id="spnCondition"></span>
+                    <span class="label">High:</span><span id="spnHighTemp"></span>
+                    <span class="label">Wind Chill:</span><span id="spnWindChill"></span>
+                    <span class="label">Humidity:</span><span id="spnHumidity"></span>
+                    <span class="label">Wind Speed:</span><span id="spnWindSpeed"></span>
+                </div>
+            </div>
+            <div class="events"></div>
+        </div>
+
+        <h2 class="textcentered">Five Day Forecast</h2>
+        <section id="fivedayforecast">
+        </section>
+        <section class="article">
+            <div>
+                <h2>The Bear Lake Monster</h2>
+                <p class="smalltext">by James Douglas Morrison</p>
+                <p>Say what you want, but according to some Fish Haven residents the Bear Lake Monster is alive and
+                    thriving.
+                    A sighting was reported March 21st, by Canard Yarner, a 30 year old Fish Haven resident and owner of
+                    a small gift shop near the lake.
+                </p>
+
+                <p>Mr. Yarner states he was in a small boat on the lask Saturday March, 31st at around 12:30 pm, when he
+                    saw the creature.
+                    He stated the creature followed him for several minutes, repeatedly surfacing, swimming around and
+                    underneath the boat.
+                    He described the creature's appearance as large, pail yellow-green, serpert like, roughly 30 to 40
+                    feat long, with arms, legs, and head a like an aligator. </p>
+                <p>
+                    This seems to align with reports of the Bear Lake Monster going back centuries, originating with
+                    natives, and later being confirmed by settlers in the Bear Lake area.
+                    Does the Bear Lake Monster really exist? Experts say as the waters of Bear Lake warm up, we can
+                    expect the creature to become more active, and may increase the liklihood of further sightings. You
+                    may be able to find out for yourself. </p>
+            </div>
+            <div><img src="images/calm_water_with_ripple.jpeg" alt="calm lake with ripple"></div>
+        </section>
+        <section id="contactinfo">            
+            <div class="contactmap">
+                <iframe src="https://maps.google.com/maps?q=fish%20haven%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="contactdetails textcentered">
+                <h2>Contact Information</h2>
+                <p>truWeather</p>
+                <p>30 N 1st Street</p>
+                <p>Preston, ID, 83263</p>
+                <p>&phone; 999-999-9999</p>
+                <p>&#x1F584; info@truWeather.not.real</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="copyright">
+            <p>&copy; 2020 | Matthew N. Baldwin | Arizona | <a href="https://www.byui.edu/online">BYUI Online
+                    Learning</a><br>
+                <span id="spanLastUpdated" class="lastupdated"></span></p>
+        </div>
+    </footer>
+    <input type="hidden" name="cityId" id="cityId" value="5585010">
+    <input type="hidden" name="cityName" id="cityName" value="fish haven">
+    <script src="js/webfont_loader.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>
