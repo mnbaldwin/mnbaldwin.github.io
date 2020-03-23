@@ -14,16 +14,15 @@ fetch(requestURL)
              if (towns[i].name.toUpperCase() == cityName.toUpperCase()) {
                 
                 let head = document.createElement("h2");
-                head.textContent ="Upcomping Events";
+                head.textContent ="Upcoming Events";
                 document.querySelector('div.events').appendChild(head);
                 maxEvent = towns[i].events.length -1;
-        //         for (let j = 0; j < towns[i].events[j].length; j++)
-        //         {                    
+                        
                      let pText = document.createElement("p");
                      pText.setAttribute("id", "pEvent");
                      pText.textContent = towns[i].events[currentEvent];
                      document.querySelector('div.events').appendChild(pText);
-        //         }
+     
                 currentEvent++;
                                                                         
              }
