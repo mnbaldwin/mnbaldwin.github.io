@@ -103,8 +103,7 @@ body {
 
 }
 
-.statsheader {
-    color: ffffff;
+.statsheader {    
     border-top: solid 1px #ffffff;
     box-shadow: 2px 2px 1px black;
     grid-column: 2;
@@ -472,8 +471,7 @@ input:focus {
 .trip_statsheader {
     position: absolute;
     top: 0px;
-    left: 0px;
-    color: ffffff;
+    left: 0px;    
     box-shadow: 2px 2px 1px white;
     padding: 5px;
 }
