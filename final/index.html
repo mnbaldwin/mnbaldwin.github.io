@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Salmon River Adventures Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Assignment portal for M Baldwin in CIT 230: Web Frontend Development at BYUI.">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="register_now"><a href="reservations.html">Register Now</a></div>
+            <img class="logo" src="images/logo_white_red.png" alt="Salmon River Adventures logo"><span
+                class="logotext centered">Salmon&nbsp;River&nbsp;Adventures</span>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()" class="hamburger">&#9776;&nbsp;Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="adventures.html">Adventures</a></li>
+            <li><a href="guides.html">Our Guides</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="herodiv">
+
+            <picture>
+                <source srcset="images/home_small.jpg" media="(min-width:375px) and (max-width:499px)">
+                <source srcset="images/home_medium.jpg" media="(min-width:500px) and (max-width:619px)">
+                <source srcset="images/home_med_large.jpg" media="(min-width:620px) and (max-width:1080px)">
+                <source srcset="images/home_large.jpg" media="(min-width:960px)">
+                <img src="images/home_smallest.jpg" alt="Rafting">
+            </picture>
+            <div class="hero_overlay">
+                <div class="tagline">
+                    <p>
+                        <h1 class="hero_text">Create memories that last and share an adventure of a lifetime!</h1>
+                    </p>
+                </div>
+                <div class="statsheader">
+                    <div class="stats">
+                        <span class="label">Currently:</span><span id="spnCondition"></span>
+                        <span class="label">High:</span><span id="spnHighTemp"></span>
+                        <span class="label">Wind&nbsp;Chill:</span><span id="spnWindChill"></span>
+                        <span class="label">Humidity:</span><span id="spnHumidity"></span>
+                        <span class="label">Wind&nbsp;Speed:</span><span id="spnWindSpeed"></span>
+                    </div>
+                </div>
+                <div class="home_text_block">
+                    <p>Disconnect from the hustle and bustle. Experience both the serenity and the exciting rush of the
+                        premier whitewater adventure on the world's greatest river.</p>
+                    <P>After each amazing day on the river, relax and enjoy a gourment campfire meal under the stars in
+                        the beautiful Idaho summer night.</p>
+                    <p>At Salmon River Adventures, your safety is number one. Rest assured that all members of your
+                        group are in good hands. In fact, you are in the best hands. Our experts guides are unmatched in
+                        the industry. We require the highest standard of experience and certification in the business.
+                    </p>
+                    <P>Choose from one of our unforgettable <a href="adventures.html"
+                            class="=home_text_block">adventures</a>. We know you will find the nature experience you've
+                        been dreaming of.</p>
+                </div>
+                <div class="register_now_large text_centered"><a href="reservations.html">Register Now</a></div>
+            </div>
+            </p>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2020 | Matthew N. Baldwin | Arizona | <a href="https://www.byui.edu/online">BYUI Online
+                    Learning</a><br>
+                <span id="spanLastUpdated" class="lastupdated"></span></p>
+        </div>
+    </footer>
+    <script src="js/webfont_loader.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+
+</html>

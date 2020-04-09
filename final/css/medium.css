@@ -1,0 +1,46 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 32.5em) {
+
+    .register_now{
+        display: block;
+    }
+    .navigation li {
+        display: none;    
+    }
+    
+    .navigation li:first-child {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    .responsive li{
+        display: block;
+    }
+    .logotext {                
+        font-size: 2.5em;
+    }
+   
+    .guide {        
+        background-color: #E3F2F0;        
+        box-shadow: 2px 2px 1px grey;    
+        object-fit: contain;         
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+
+    .hero_text {
+        font-family: 'Courgette', cursive;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 1.3em;
+    }
+    .register_now_large {
+        display: none;
+    }
+
+}

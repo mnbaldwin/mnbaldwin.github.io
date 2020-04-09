@@ -1,0 +1,527 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 4px;
+    height: 100%;
+    font-size: 18px;
+}
+
+.adventures_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.adventure {
+    background-color: #E3F2F0;
+    box-shadow: 2px 2px 1px grey;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.adeventure_photo {
+    max-width: 95%;
+    padding: 5px;
+}
+
+.adeventure img {
+    box-shadow: 2px 2px 1px black;
+    max-width: 95%;
+}
+
+.hero_text {
+    font-family: 'Courgette', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+
+.herodiv img {
+    width: 100%;
+}
+
+.herodiv {
+    margin: -10px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.hero_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: 5% min-content auto 5%;
+    grid-template-rows: min-content;
+    justify-content: center;
+
+}
+
+.herodiv h2 {
+    margin: 5px;
+    text-shadow: -1px 1px 2px #ffffff,
+        1px 1px 2px #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+}
+
+.herodiv p {
+    display: block;
+    margin: 0;
+}
+
+.adventures_container {
+    max-width: 1400px;
+}
+
+.tagline {
+    grid-column: span 4;
+    justify-self: center;
+}
+
+.home_text_block {
+    color: white;
+    max-width: 900px;
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+    grid-column: 3;
+    justify-self: left;
+}
+
+.home_text_block p {
+    padding: 5px;
+}
+
+.home_text_block a {
+    color: white;
+
+}
+
+.statsheader {
+    color: ffffff;
+    border-top: solid 1px #ffffff;
+    box-shadow: 2px 2px 1px black;
+    grid-column: 2;
+    max-height: 10px;
+}
+
+.stats {
+    border-bottom: solid 1px #ffffff;
+    border-left: solid 1px #ffffff;
+    border-right: solid 1px #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0202023f;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.stats .label {
+    font-weight: normal;
+    justify-self: end;
+    padding: .1rem;
+}
+
+.stats span {
+    justify-self: start;
+    padding: .1rem;
+}
+
+hr {
+    margin-top: -15px;
+    border-top: 1px solid #E3F2F0;
+    ;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    margin: 5px auto;
+    padding: 4px;
+    background-color: #61E8E1;
+    background-image: linear-gradient(#82C7BF, #1B998B);
+    color: #000000;
+    text-align: center;
+}
+
+.lastupdated {
+    color: #000000;
+    font-size: small;
+}
+
+footer a {
+    color: #000000;
+    font-weight: normal;
+}
+
+header {
+    background-image: linear-gradient(#1B998B, #82C7BF);
+    padding: 4px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Courgette', cursive;
+}
+
+nav {
+    margin-top: -10px;
+    background-color: rgba(97, 232, 225, 0.507);
+    text-align: center;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation a {
+    display: block;
+    color: #020202;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.45rem;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: #FF1E40;
+    margin-bottom: -5px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:hover {
+    text-shadow: -1px 1px 2px #61E8E1,
+        1px 1px 2px #FF1E40,
+        1px -1px 0 #FFFFFF,
+        -1px -1px 0 #FFFFFF;
+}
+
+a.active:hover {
+    text-shadow: -1px 1px 2px #002642, 1px 1px 2px #002642, 1px -1px 0 #002642, -1px -1px 0 #002642;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+a.active {
+    text-shadow: -1px 1px 2px #002642, 1px 1px 2px #002642, 1px -1px 0 #002642, -1px -1px 0 #002642;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.logo {
+    width: 300px;
+    max-width: 100%;
+}
+
+.logotext {
+    text-shadow: -1px 1px 2px #61E8E1,
+        1px 1px 2px #FF1E40,
+        1px -1px 0 #FFFFFF,
+        -1px -1px 0 #FFFFFF;
+    font-family: 'Courgette', cursive;
+    color: #020202;
+    font-kerning: normal;
+    font-size: 1.3em;
+    font-weight: bold;
+    max-width: inherit;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textcentered {
+    text-align: center;
+}
+
+.smalltext {
+    font-size: 12px;
+}
+
+.contact_info {
+    background-color: #E3F2F0;
+    width: 100%;
+}
+
+.contact_detail {
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.contact_detail iframe {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 400px;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/*----------- FORM --------------*/
+
+form fieldset {
+    margin: 2rem auto;
+    padding: .5rem 2%;
+    padding-bottom: 2rem;
+    background-color: #E3F2F0;
+    box-shadow: 2px 2px 1px grey;
+    border: none;
+    font-weight: bold;
+    max-width: max-content;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+}
+
+form input.submitBtn {
+    border-radius: 25px;
+    background-color: #61E8E1;
+    color: #020202;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #020202;    
+    padding: 8px;
+    font-size: 26px;
+    margin: auto 50%;    
+    transform: translate(-50%, -50%);
+
+}
+
+form input.submitBtn:hover {
+    text-shadow: -1px 1px 2px #61E8E1,
+        1px 1px 2px #FF1E40,
+        1px -1px 0 #FFFFFF,
+        -1px -1px 0 #FFFFFF;
+    box-shadow: -1px 1px 2px #FFFFFF,
+        1px 1px 2px #FFFFFF,
+        1px -1px 0 #FF1E40,
+        -1px -1px 0 #FF1E40;
+    cursor: pointer;
+}
+
+form label.top input:required {
+    border-left: #FF1E40 solid 6px;
+}
+
+form label.top select:required {
+    border-left: #FF1E40 solid 6px;
+}
+
+form label.top select:required:valid {
+    border-left: green solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+form label.top textarea {
+    width: 100%;
+    height: 150px;
+}
+
+input:focus {
+    outline-color: #002642;
+}
+
+.adventure_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    max-width: 100%;
+}
+
+.register_now {
+    border-radius: 25px;
+    background-color: #61E8E1;
+    color: #020202;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #020202;
+    max-width: max-content;
+    padding: 4px;
+    position: absolute;
+    display: block;
+    grid-row: span 4;
+}
+
+.register_now_large {
+    display: none;
+}
+
+.register_now a {
+    text-decoration: none;
+}
+
+.register_now:hover {
+    box-shadow: -1px 1px 2px #FFFFFF,
+        1px 1px 2px #FFFFFF,
+        1px -1px 0 #FF1E40,
+        -1px -1px 0 #FF1E40;
+}
+
+.guide {
+    background-color: #E3F2F0;
+    box-shadow: 2px 2px 1px grey;
+    object-fit: contain;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.guide_text {
+    border: 1px solid #1B998B;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(249, 255, 253);
+}
+
+.guide h1 {
+    text-shadow: -1px 1px 2px #ffffff,
+        1px 1px 2px #ffffff,
+        1px -1px 0 #ffffff,
+        -1px -1px 0 #ffffff;
+    color: #002642;
+}
+
+.guide img {
+    max-width: 95%;
+    box-shadow: 2px 2px 1px grey;
+    min-width: 250px;
+    float: right;
+    margin: auto;
+}
+
+.trip_statsheader h2 {
+    background-image: linear-gradient(to right, #82C7BF, rgba(130, 199, 191, 0.24));
+}
+
+.trip_statsheader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: ffffff;
+    box-shadow: 2px 2px 1px white;
+    padding: 5px;
+}
+
+.trip_stats {
+    background-color: #0202028c;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.trip_stats .label {
+    font-weight: bold;
+    padding: .1rem;
+}
+
+.trip_stats span {
+    padding: .1rem;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 2px 2px 1px grey;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+td,
+th {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #61E8E1;
+    font-weight: bold;
+    border-bottom: solid 2px #FF1E40;
+}
+
+td {
+    background-color: #E3F2F0;
+    color: #000000;
+}
+
+@media only screen and (max-width: 580px) {
+    .statsheader {
+        display: none;
+    }
+}

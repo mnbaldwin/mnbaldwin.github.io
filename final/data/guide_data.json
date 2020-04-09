@@ -1,0 +1,30 @@
+{
+    "guides": [
+      {
+        "name": "Brophius Magnussen" ,
+        "picture": "1.jpg",
+        "certification_level": "Expert<ul><li>CPR</li><li>Wilderness First Aid</li><li>Swiftwater Rescue</li></ul>",
+        "years_of_experience": "8" ,
+        "email_address": "bmagnussen@sra.fake",
+        "biography" : "<p>Brophius is the head guide of the Lower Salmon River adventure. When not working (and playing) on the water, Brophius can be found with his river-dance crew, most likely in a river-dance battle on the mean streets of Riggins, Idaho.</p>"
+      },
+      {
+        "name": "Buck Jalfrezi" ,
+        "picture": "2.jpg",
+        "certification_level": "Expert<ul><li>CPR</li><li>Wilderness First Aid</li><li>Swiftwater Rescue</li></ul>",
+        "years_of_experience": "15" ,
+        "email_address": "ojalfrezi@sra.fake",
+        "biography" : "<p>As a young boy Buck dreamed of being a river guide. He grew up in Death Valley, CA until the age of 20, so most of his early training was in his bathtub. You would never guess this when you see him in action.</p><p>In his spare time, Buck plays competitive Connect Four, visit Walmarts, and makes homemade blue cheese. On the final night of the trip, Buck makes an unforgettable bluecheese smoothy for the entire group. Register now, and thank us later.</p>"
+      },
+      {
+
+        "name": "Melvin Melvin, Jr." ,
+        "picture": "3.jpg",
+        "certification_level": "Expert<ul><li>CPR</li><li>Wilderness First Aid</li><li>Swiftwater Rescue</li></ul>",
+        "years_of_experience": "12" ,
+        "email_address": "mmelvin@sra.fake",
+        "biography" : "<p>Melvin is the head guide of our Main Salmon River adventures. Before joining our teamm he honed his skills with over 10 years of leading countless runs down the most challenging and notorius whitewater in America, including the Colorado and Tuolumne Rivers.</p><p>Melvin also moonlights as a Buger King impersonator and can be hired for parties and public events.</p>"
+      }
+
+    ]
+  }

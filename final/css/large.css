@@ -1,0 +1,75 @@
+/*large*/
+@media only screen and (min-width: 60em) {
+    .register_now{
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .logotext {        
+        font-size: 3.0em;    
+    }    
+
+    form label.sbs{
+        padding: .4rem 0;
+    }
+
+    .guide {     
+        background-color: #E3F2F0;        
+        box-shadow: 2px 2px 1px grey;    
+        object-fit: contain;         
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
+    .register_now_large {
+        border-radius: 25px;    
+        background-color:#61E8E1;
+        color: #020202;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #020202;
+        max-width: max-content;
+        padding: 8px;
+        position: absolute;
+        display: block;        
+        font-size: 26px;
+        margin: 25px;
+        grid-column: span 4;
+        justify-content: center;
+        align-content: center;
+        justify-self: center;
+    }
+    .register_now_large a {
+        text-decoration: none;
+    }
+    
+    .register_now_large:hover {    
+        text-shadow: -1px 1px 2px #61E8E1,
+            1px 1px 2px #FF1E40,
+            1px -1px 0 #FFFFFF,
+            -1px -1px 0 #FFFFFF;    
+        box-shadow: -1px 1px 2px #FFFFFF,
+            1px 1px 2px #FFFFFF,
+            1px -1px 0 #FF1E40,
+            -1px -1px 0 #FF1E40;
+    }
+
+    .hero_text {
+        font-family: 'Courgette', cursive;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 1.3em;
+    }
+
+}
